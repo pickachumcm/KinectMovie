@@ -1,0 +1,11 @@
+﻿<Window x:Class="kinectApptest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="421" Width="810" Loaded="Window_Loaded" Closed="Window_Closed">
+    <Grid>
+        <Image Height="240" HorizontalAlignment="Left" Margin="33,12,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="320" />
+        <Image Height="240" HorizontalAlignment="Left" Margin="427,12,0,0" Name="image2" Stretch="Fill" VerticalAlignment="Top" Width="320" />
+        <Button Content="Captura" Height="23" HorizontalAlignment="Left" Margin="33,282,0,0" Name="button1" VerticalAlignment="Top" Width="143" Click="button1_Click" />
+        <Button Content="Comprima" Height="23" HorizontalAlignment="Left" Margin="245,282,0,0" Name="button2" VerticalAlignment="Top" Width="108" Click="button2_Click" />
+    </Grid>
+</Window>
